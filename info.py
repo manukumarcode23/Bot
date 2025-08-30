@@ -18,5 +18,5 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002988719658'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8391217905').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://PSS:PSS04@pss.kndea6j.mongodb.net/?retryWrites=true&w=majority&appName=PSS")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
