@@ -388,10 +388,10 @@ class TelegramVideoStreamer:
 # Usage example
 if __name__ == "__main__":
     # Configuration with your credentials
-    API_ID = 25929889
-    API_HASH = "fd980dbd069e0b45d0dec91f7e616bad"
-    BOT_TOKEN = "8492028054:AAHErmHeCi2psVuRuY7WPVTWw5gYsci3Fpc"
-    STORAGE_CHAT_ID = "-1003096326174"  # Your "Cfg" channel
+    API_ID = 25090660
+    API_HASH = "58fd3b352d60d49f6d145364c6791c1b"
+    BOT_TOKEN = "7907435434:AAG48sQ9j3cNHmfzrZp34QdPiTLmNVJU6A0"
+    STORAGE_CHAT_ID = "-1002976875407"  # Your "Cfg" channel
     
     # Create and run the streamer
     streamer = TelegramVideoStreamer(API_ID, API_HASH, BOT_TOKEN, STORAGE_CHAT_ID)
